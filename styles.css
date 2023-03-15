@@ -1,0 +1,85 @@
+#foto {
+    width: 150px;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    height: 150px;
+    border: 8px solid pink;
+}
+
+body{
+    background: linear-gradient(pink, white);
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+#title{
+    text-shadow: 5px 5px 4px black;
+}
+#bday{
+    text-shadow: 0px 0px 5px black;
+    background-color:#EFB0C9 ;
+    border-radius: 5%;
+    padding: 8px;
+    margin-bottom: 10px;
+} 
+#date {
+    text-shadow: 0px 0px 5px black;
+    background-color:#EFB0C9 ;
+    border-radius: 5%;
+    padding: 8px;
+}
+.regalo{
+    width:400px;
+    height: 250px;
+    border: 6px solid white;
+    background-image: url("imagenes/giphy.gif");
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+#happy {
+    color: white;
+    font-family: 'Happy Monkey', cursive;
+
+
+}
+
+#hover {
+    color:white;
+    font-family: 'Happy Monkey', cursive;
+
+}
+
+.regalo:hover {
+    background-image: url("imagenes/gatoataque.gif");
+
+}
+
+.regalo2 {
+
+    width: 400px;
+    height: 250px;
+    background-image: url("imagenes/giphy.gif");
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    border: 8px solid white;
+
+
+}
+.regalo2:hover {
+    background-image: url("imagenes/cake.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.link {
+    font-style: oblique;
+    margin-top: 0px;
+    color: white;
+}
